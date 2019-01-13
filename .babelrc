@@ -1,6 +1,15 @@
 {
     "presets": [
         "env",
-        "react",
+        "react"
+    ],
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "style": "css"
+            }
+        ]
     ]
 }
